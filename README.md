@@ -16,6 +16,6 @@ Application: In this case, our goal is to know how or whether other variables af
 
 ## Conclusion
 
-#### Conclusion: At data scores of 0.99 for both trainig and testing, as predicted the logistic regression model is better suited for supervised machine learning in this context than the random forest classifier.
+#### Conclusion: At data scores of 0.99 for both training and testing, as predicted the logistic regression model is better suited for supervised machine learning in this context than the random forest classifier.
 
-While the random forest classifier's training data score was a perfect 1.0, in actual testing its score decreased to 0.76.  While this is still considered a good result for a data score, this result is not as strong as  the logistic regression model's.
+While the random forest classifier's training data score was a perfect 1.0, in actual testing its score decreased to 0.76.  While this is still considered a good result for a data score, this result is not as strong as the logistic regression model's.
