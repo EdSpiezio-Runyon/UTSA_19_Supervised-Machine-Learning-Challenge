@@ -1,4 +1,4 @@
-# UTSA: Supervised Machine Learning Challenge
+# UTSA 20: Supervised Machine Learning Challenge
 
 ## Background
 
