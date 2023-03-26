@@ -1,21 +1,16 @@
 # UTSA 19: Supervised Machine Learning Challenge
 
 ## Background
+### In this project, we are using data from lending services companies to create machine learning models to classify the risk level of loans. The data includes both personal loans and notes backing the loans on a secondary market.
 
-#### Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market.
-
-You will be using this data to create machine learning models to classify the risk level of given loans. Specifically, you will be comparing the Logistic Regression model and Random Forest Classifier.
+## Approach
+### We compared two models, Logistic Regression and Random Forest Classifier, to determine which one is better suited for this task. Our goal is to understand how other variables affect the risk level of the loans and determine whether or not a loan should be issued.
 
 ## Prediction
+### Based on the data and analysis, we predicted that the Logistic Regression model would perform better than the Random Forest Classifier. This is because multivariate logistic regression is more suited than random forest classification for analyzing data with one nominal variable and multiple measurement variables.
 
-#### Prediction: Based on the data and the requested analysis, I would predict that the logistic regression would be a better model.
+## Results
+### The Logistic Regression model performed better than the Random Forest Classifier, with data scores of 0.99 for both training and testing. The Random Forest Classifier had a perfect training data score of 1.0, but its testing score decreased to 0.76. Overall, the Logistic Regression model was better suited for supervised machine learning in this context.
 
-Rationale: Multivariate logistic regression is more suited than random forest classification to analysis involving one nominal variable and two or more measurement variables.
-
-Application: In this case, our goal is to know how or whether other variables affect the nominal variable to determine whether or not a loan should be issued.
-
-## Conclusion
-
-#### Conclusion: At data scores of 0.99 for both training and testing, as predicted the logistic regression model is better suited for supervised machine learning in this context than the random forest classifier.
-
-While the random forest classifier's training data score was a perfect 1.0, in actual testing its score decreased to 0.76.  While this is still considered a good result for a data score, this result is not as strong as the logistic regression model's.
+## Recommendation
+### We recommend using the Logistic Regression model for loan risk classification in this scenario. However, we also suggest exploring additional models and features to further improve the accuracy of the prediction.
